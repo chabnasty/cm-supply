@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plumbing Supplies Lubbock TX | C&M Supply Company | Water Heaters & More</title>
+  <meta name="description" content="Plumbing Supplies Lubbock TX | C&M Supply Company | Water Heaters & More. Serving contractors and businesses across West Texas since 1976. In-stock essentials. Competitive prices. Same-day pickup available.">
+  <meta name="keywords" content="plumbing supplies Lubbock, water heaters Lubbock TX, wholesale plumbing, pipes fittings valves, C&M Supply, West Texas plumbing">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            navy: '#0a2c5e',
+            'navy-dark': '#003366',
+            accent: '#c8102e',
+            'accent-orange': '#ff4d00',
+            'gray-light': '#f8f9fa',
+            'gray-text': '#374151',
+          },
+          fontFamily: {
+            sans: ['Montserrat', 'Inter', 'system-ui', 'sans-serif'],
+          },
+        },
+      },
+    }
+  </script>
+  
+  <style>
+    /* ===== CUSTOM STYLES & ANIMATIONS ===== */
+    html {
+      scroll-behavior: smooth;
+    }
+    
+    .fade-in {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    }
+    
+    .fade-in.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    
+    .logo-text {
+      font-weight: 800;
+      letter-spacing: -0.02em;
+    }
+    
+    .logo-accent {
+      color: #c8102e;
+      border-bottom: 3px solid #c8102e;
+    }
+    
+    .btn-primary {
+      transition: all 0.2s ease;
+    }
+    
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 25px -5px rgba(10, 44, 94, 0.3);
+    }
+    
+    .btn-accent:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 25px -5px rgba(200, 16, 46, 0.4);
+    }
+    
+    .card-hover {
+      transition: all 0.3s ease;
+    }
+    
+    .card-hover:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.15);
+    }
+    
+    .hero-gradient {
+      background: linear-gradient(135deg, rgba(10, 44, 94, 0.92) 0%, rgba(0, 51, 102, 0.88) 50%, rgba(10, 44, 94, 0.85) 100%);
+    }
+    
+    .video-overlay {
+      background: linear-gradient(90deg, rgba(10, 44, 94, 0.75) 0%, rgba(10, 44, 94, 0.4) 50%, transparent 100%);
+    }
+    
+    @media (max-width: 768px) {
+      .video-overlay {
+        background: linear-gradient(180deg, rgba(10, 44, 94, 0.85) 0%, rgba(10, 44, 94, 0.5) 40%, transparent 100%);
+      }
+    }
+    
+    .tel-link:hover {
+      text-decoration: underline;
+    }
+    
+    /* Sticky nav shadow */
+    .nav-scrolled {
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    }
+  </style>
+</head>
+<body class="font-sans text-gray-text antialiased">
+  
+  <!-- ==================== NAVIGATION ==================== -->
+  <header id="nav" class="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm transition-shadow duration-300">
+    <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-16 md:h-20">
+        <!-- Logo -->
+        <a href="#" class="flex items-center gap-2 group">
+          <span class="text-xl sm:text-2xl md:text-3xl font-bold text-navy logo-text">
+            <span class="text-navy-dark">C&M</span> <span class="logo-accent">SUPPLY</span> <span class="text-navy font-semibold">COMPANY</span>
+          </span>
+        </a>
+        
+        <!-- Desktop Menu -->
+        <div class="hidden md:flex items-center gap-8">
+          <a href="#home" class="text-gray-700 hover:text-navy font-medium transition-colors">Home</a>
+          <a href="#products" class="text-gray-700 hover:text-navy font-medium transition-colors">Products</a>
+          <a href="#about" class="text-gray-700 hover:text-navy font-medium transition-colors">About</a>
+          <a href="#contact" class="text-gray-700 hover:text-navy font-medium transition-colors">Contact</a>
+          <a href="tel:8067473557" class="text-navy font-semibold hover:text-accent transition-colors tel-link">(806) 747-3557</a>
+          <a href="#contact" class="inline-flex items-center px-5 py-2.5 bg-accent text-white font-semibold rounded-lg btn-accent transition-all">
+            Request Quote
+          </a>
+        </div>
+        
+        <!-- Mobile Menu Button -->
+        <div class="md:hidden flex items-center gap-4">
+          <a href="tel:8067473557" class="text-navy font-semibold text-sm">(806) 747-3557</a>
+          <button id="mobile-menu-btn" type="button" class="p-2 rounded-lg hover:bg-gray-100" aria-label="Toggle menu">
+            <svg class="w-6 h-6 text-navy" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+      
+      <!-- Mobile Menu -->
+      <div id="mobile-menu" class="hidden md:hidden pb-4">
+        <div class="flex flex-col gap-3">
+          <a href="#home" class="py-2 text-gray-700 hover:text-navy font-medium">Home</a>
+          <a href="#products" class="py-2 text-gray-700 hover:text-navy font-medium">Products</a>
+          <a href="#about" class="py-2 text-gray-700 hover:text-navy font-medium">About</a>
+          <a href="#contact" class="py-2 text-gray-700 hover:text-navy font-medium">Contact</a>
+          <a href="#contact" class="inline-flex justify-center py-3 bg-accent text-white font-semibold rounded-lg">Request Quote</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ==================== HERO SECTION ==================== -->
+  <section id="home" class="relative min-h-screen flex items-center overflow-hidden">
+    <!-- Background: Image + Video Area -->
+    <div class="absolute inset-0">
+      <!-- Fallback gradient + image -->
+      <div class="absolute inset-0 hero-gradient z-10"></div>
+      <img 
+        src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=1920&q=80" 
+        alt="Professional plumbing supplies and pipes" 
+        class="absolute inset-0 w-full h-full object-cover"
+      />
+      <!-- Video embed (right side on desktop) -->
+      <div class="absolute top-0 right-0 w-full md:w-1/2 lg:w-2/5 h-full z-20">
+        <iframe 
+          src="https://drive.google.com/file/d/9KYNJ5zuBffUW3AX8/preview" 
+          class="w-full h-full object-cover"
+          allow="autoplay"
+          allowfullscreen
+          title="C&M Supply Company - Why Lubbock Pros Choose Us"
+        ></iframe>
+      </div>
+      <!-- Overlay for text readability -->
+      <div class="absolute inset-0 video-overlay z-30 pointer-events-none"></div>
+    </div>
+    
+    <!-- Hero Content -->
+    <div class="relative z-40 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full pt-20">
+      <div class="max-w-2xl">
+        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6 fade-in">
+          Your Trusted Source for Plumbing Supplies in Lubbock, TX
+        </h1>
+        <p class="text-lg sm:text-xl text-white/95 mb-8 fade-in" style="animation-delay: 0.1s">
+          Serving contractors and businesses across West Texas since 1976. In-stock essentials. Competitive prices. <strong class="text-white">Same-day pickup available.</strong>
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 fade-in" style="animation-delay: 0.2s">
+          <a href="tel:8067473557" class="inline-flex items-center justify-center px-8 py-4 bg-accent text-white font-bold text-lg rounded-lg btn-primary hover:bg-red-700">
+            Call Now: (806) 747-3557
+          </a>
+          <a href="#contact" class="inline-flex items-center justify-center px-8 py-4 bg-white text-navy font-bold text-lg rounded-lg border-2 border-white btn-primary hover:bg-gray-100">
+            Get a Quote Today
+          </a>
+        </div>
+        <p class="mt-6 text-white/90 text-sm sm:text-base fade-in" style="animation-delay: 0.3s">
+          <span class="font-semibold">Watch:</span> Why Lubbock Pros Choose C&M
+        </p>
+      </div>
+    </div>
+    
+    <!-- Scroll indicator -->
+    <div class="absolute bottom-8 left-1/2 -translate-x-1/2 z-40 animate-bounce">
+      <a href="#why-choose" class="text-white/80 hover:text-white">
+        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"/>
+        </svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- ==================== WHY CHOOSE US ==================== -->
+  <section id="why-choose" class="py-16 sm:py-24 bg-gray-light">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl sm:text-4xl font-bold text-navy text-center mb-4 fade-in">
+        Why Lubbock Pros Choose C&M
+      </h2>
+      <p class="text-lg text-gray-600 text-center max-w-2xl mx-auto mb-12 fade-in">
+        We're not just a supplier—we're your partner for getting the job done.
+      </p>
+      
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
+        <!-- Card 1 -->
+        <div class="bg-white rounded-xl p-6 shadow-lg card-hover fade-in">
+          <div class="w-14 h-14 bg-navy/10 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-7 h-7 text-navy" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold text-navy mb-2">Local Lubbock Expertise</h3>
+          <p class="text-gray-600">Family-owned, serving the Hub City for decades. We know your projects, your timelines, and your needs.</p>
+        </div>
+        
+        <!-- Card 2 -->
+        <div class="bg-white rounded-xl p-6 shadow-lg card-hover fade-in">
+          <div class="w-14 h-14 bg-navy/10 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-7 h-7 text-navy" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/>
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold text-navy mb-2">Huge In-Stock Selection</h3>
+          <p class="text-gray-600">Pipes, fittings, valves, water heaters, tools & more. Top brands. Ready when you need them.</p>
+        </div>
+        
+        <!-- Card 3 -->
+        <div class="bg-white rounded-xl p-6 shadow-lg card-hover fade-in">
+          <div class="w-14 h-14 bg-navy/10 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-7 h-7 text-navy" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold text-navy mb-2">Fast Pickup & Delivery</h3>
+          <p class="text-gray-600">Same-day service for pros who can't wait. Get in, get out, get back to the job.</p>
+        </div>
+        
+        <!-- Card 4 -->
+        <div class="bg-white rounded-xl p-6 shadow-lg card-hover fade-in">
+          <div class="w-14 h-14 bg-navy/10 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-7 h-7 text-navy" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold text-navy mb-2">Competitive Pricing</h3>
+          <p class="text-gray-600">Wholesale prices without the hassle. No runaround. No surprises. Just fair pricing.</p>
+        </div>
+      </div>
+      
+      <div class="text-center mt-12 fade-in">
+        <a href="tel:8067473557" class="inline-flex items-center px-6 py-3 bg-navy text-white font-semibold rounded-lg hover:bg-navy-dark transition-colors">
+          Call (806) 747-3557 for Pricing
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FEATURED PRODUCTS ==================== -->
+  <section id="products" class="py-16 sm:py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl sm:text-4xl font-bold text-navy text-center mb-4 fade-in">
+        Featured Products & Categories
+      </h2>
+      <p class="text-lg text-gray-600 text-center max-w-2xl mx-auto mb-12 fade-in">
+        Everything you need for residential, commercial, and industrial plumbing.
+      </p>
+      
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+        <!-- Product 1 - Water Heaters -->
+        <div class="group rounded-xl overflow-hidden shadow-lg card-hover fade-in">
+          <div class="aspect-[4/3] overflow-hidden bg-gray-200">
+            <img src="https://images.unsplash.com/photo-1607400201889-565b1ee75f8e?w=600&q=80" alt="Water heaters" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+          </div>
+          <div class="p-6 bg-white">
+            <h3 class="text-xl font-bold text-navy mb-2">Water Heaters</h3>
+            <p class="text-gray-600 mb-4">Tank & tankless. Residential and commercial. Gas and electric. In stock.</p>
+            <a href="tel:8067473557" class="inline-flex items-center text-accent font-semibold hover:underline">
+              Inquire Now
+              <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+        
+        <!-- Product 2 - Pipes & Tubing -->
+        <div class="group rounded-xl overflow-hidden shadow-lg card-hover fade-in">
+          <div class="aspect-[4/3] overflow-hidden bg-gray-200">
+            <img src="https://images.unsplash.com/photo-1581092162384-8987c1d64718?w=600&q=80" alt="PVC and copper pipes" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+          </div>
+          <div class="p-6 bg-white">
+            <h3 class="text-xl font-bold text-navy mb-2">Pipes & Tubing</h3>
+            <p class="text-gray-600 mb-4">PVC, copper, PEX, galvanized. All sizes. Cut to length available.</p>
+            <a href="tel:8067473557" class="inline-flex items-center text-accent font-semibold hover:underline">
+              View Products
+              <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+        
+        <!-- Product 3 - Fittings & Connectors -->
+        <div class="group rounded-xl overflow-hidden shadow-lg card-hover fade-in">
+          <div class="aspect-[4/3] overflow-hidden bg-gray-200">
+            <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80" alt="Copper fittings and connectors" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+          </div>
+          <div class="p-6 bg-white">
+            <h3 class="text-xl font-bold text-navy mb-2">Fittings & Connectors</h3>
+            <p class="text-gray-600 mb-4">Copper, brass, plastic. Elbows, tees, couplings. Full range in stock.</p>
+            <a href="tel:8067473557" class="inline-flex items-center text-accent font-semibold hover:underline">
+              Inquire
+              <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+        
+        <!-- Product 4 - Valves -->
+        <div class="group rounded-xl overflow-hidden shadow-lg card-hover fade-in">
+          <div class="aspect-[4/3] overflow-hidden bg-gray-200">
+            <img src="https://images.unsplash.com/photo-1585704032915-c3400ca199e7?w=600&q=80" alt="Plumbing valves" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+          </div>
+          <div class="p-6 bg-white">
+            <h3 class="text-xl font-bold text-navy mb-2">Valves</h3>
+            <p class="text-gray-600 mb-4">Ball, gate, check, shut-off. Commercial and residential grades.</p>
+            <a href="tel:8067473557" class="inline-flex items-center text-accent font-semibold hover:underline">
+              View Products
+              <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+        
+        <!-- Product 5 - Fixtures -->
+        <div class="group rounded-xl overflow-hidden shadow-lg card-hover fade-in">
+          <div class="aspect-[4/3] overflow-hidden bg-gray-200">
+            <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&q=80" alt="Plumbing fixtures - faucets and sinks" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+          </div>
+          <div class="p-6 bg-white">
+            <h3 class="text-xl font-bold text-navy mb-2">Fixtures</h3>
+            <p class="text-gray-600 mb-4">Faucets, sinks, toilets. Top brands for every budget and application.</p>
+            <a href="tel:8067473557" class="inline-flex items-center text-accent font-semibold hover:underline">
+              Inquire Now
+              <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+        
+        <!-- Product 6 - Tools & Supplies -->
+        <div class="group rounded-xl overflow-hidden shadow-lg card-hover fade-in">
+          <div class="aspect-[4/3] overflow-hidden bg-gray-200">
+            <img src="https://images.unsplash.com/photo-1504148455328-c376907d081c?w=600&q=80" alt="Plumbing tools" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+          </div>
+          <div class="p-6 bg-white">
+            <h3 class="text-xl font-bold text-navy mb-2">Tools & Supplies</h3>
+            <p class="text-gray-600 mb-4">Wrenches, cutters, tape, sealants. Everything to finish the job right.</p>
+            <a href="tel:8067473557" class="inline-flex items-center text-accent font-semibold hover:underline">
+              View Products
+              <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="text-center mt-12 fade-in">
+        <a href="#contact" class="inline-flex items-center px-8 py-4 bg-accent text-white font-bold rounded-lg btn-accent">
+          Get a Custom Quote
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== TESTIMONIALS ==================== -->
+  <section class="py-16 sm:py-24 bg-gray-light">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl sm:text-4xl font-bold text-navy text-center mb-12 fade-in">
+        What Lubbock Pros Say About Us
+      </h2>
+      
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white rounded-xl p-8 shadow-lg fade-in">
+          <p class="text-gray-700 text-lg mb-6">"Reliable stock – saved my job! When everyone else was out, C&M had what I needed. Same-day pickup. Can't beat that."</p>
+          <p class="font-semibold text-navy">— Local Plumber, Lubbock</p>
+        </div>
+        <div class="bg-white rounded-xl p-8 shadow-lg fade-in">
+          <p class="text-gray-700 text-lg mb-6">"We've been buying from C&M for 15 years. Fair prices, great selection, and they actually know plumbing. Real people, real service."</p>
+          <p class="font-semibold text-navy">— Commercial Contractor, West Texas</p>
+        </div>
+        <div class="bg-white rounded-xl p-8 shadow-lg fade-in">
+          <p class="text-gray-700 text-lg mb-6">"Best wholesale plumbing supplier in the Hub City. Fast, friendly, and they stock the brands we trust. Highly recommend."</p>
+          <p class="font-semibold text-navy">— Property Manager, Lubbock</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== ABOUT US ==================== -->
+  <section id="about" class="py-16 sm:py-24 bg-white">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-3xl sm:text-4xl font-bold text-navy mb-6 fade-in">
+        About C&M Supply Company
+      </h2>
+      <p class="text-lg text-gray-700 leading-relaxed fade-in">
+        C&M Supply Company has been Lubbock's go-to wholesale plumbing supplier since <strong>1976</strong>. We carry top brands for residential, commercial, and industrial needs. Whether you're a plumber, contractor, builder, or property manager across West Texas, we're here to keep your projects moving with quality products, competitive pricing, and same-day service. <strong>Visit us at 802 46th St or call today.</strong>
+      </p>
+      <div class="mt-8 flex flex-col sm:flex-row gap-4 justify-center fade-in">
+        <a href="tel:8067473557" class="inline-flex items-center justify-center px-6 py-3 bg-navy text-white font-semibold rounded-lg hover:bg-navy-dark transition-colors">
+          Call (806) 747-3557
+        </a>
+        <a href="https://www.google.com/maps/search/802+46th+St,+Lubbock,+TX+79404" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-6 py-3 border-2 border-navy text-navy font-semibold rounded-lg hover:bg-navy hover:text-white transition-colors">
+          Get Directions
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== CTA BANNER + MAP ==================== -->
+  <section id="contact" class="py-16 sm:py-24 bg-navy">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl sm:text-4xl font-bold text-white mb-4 fade-in">
+          Ready to Get Your Project Moving?
+        </h2>
+        <p class="text-xl text-white/90 mb-6 fade-in">
+          Call Now: <a href="tel:8067473557" class="font-bold text-accent-orange hover:text-orange-400 transition-colors tel-link">(806) 747-3557</a>
+        </p>
+        <p class="text-lg text-white/90 mb-8 fade-in">
+          Stop By Today — 802 46th St, Lubbock, TX 79404
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center fade-in">
+          <a href="tel:8067473557" class="inline-flex items-center justify-center px-8 py-4 bg-accent text-white font-bold text-lg rounded-lg hover:bg-red-700 transition-colors">
+            Call Now
+          </a>
+          <a href="https://www.google.com/maps/place/802+46th+St,+Lubbock,+TX+79404" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-8 py-4 bg-white text-navy font-bold text-lg rounded-lg hover:bg-gray-100 transition-colors">
+            Visit Us
+          </a>
+        </div>
+      </div>
+      
+      <!-- Google Maps Embed - Get fresh embed code from: maps.google.com > Search address > Share > Embed a map -->
+      <div class="rounded-xl overflow-hidden shadow-2xl fade-in">
+        <iframe 
+          src="https://www.google.com/maps?q=802+46th+St,+Lubbock,+TX+79404&output=embed&z=15" 
+          width="100%" 
+          height="400" 
+          style="border:0;" 
+          allowfullscreen="" 
+          loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade"
+          title="C&M Supply Company Location - 802 46th St, Lubbock, TX"
+        ></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="bg-navy-dark py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row justify-between items-center gap-8">
+        <div class="text-center md:text-left">
+          <p class="text-2xl font-bold text-white logo-text">
+            <span class="logo-accent">C&M</span> SUPPLY COMPANY
+          </p>
+          <p class="text-white/80 mt-2">Lubbock's Trusted Plumbing Supplier Since 1976</p>
+        </div>
+        <div class="text-center md:text-right">
+          <p class="text-white font-semibold">
+            <a href="tel:8067473557" class="hover:text-accent-orange transition-colors">(806) 747-3557</a>
+          </p>
+          <p class="text-white/80 mt-1">802 46th St, Lubbock, TX 79404</p>
+          <p class="text-white/70 text-sm mt-1">Mon–Fri: 8:00 AM – 5:00 PM</p>
+          <a href="https://www.facebook.com/p/CM-Supply-Company-100090120660866" target="_blank" rel="noopener noreferrer" class="inline-flex items-center mt-3 text-white/80 hover:text-white transition-colors">
+            <svg class="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            Follow us on Facebook
+          </a>
+        </div>
+      </div>
+      <div class="mt-12 pt-8 border-t border-white/20 text-center">
+        <p class="text-white/60 text-sm">© 2025 C&M Supply Company. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== SCRIPTS ==================== -->
+  <script>
+    // Mobile menu toggle
+    document.getElementById('mobile-menu-btn').addEventListener('click', function() {
+      const menu = document.getElementById('mobile-menu');
+      menu.classList.toggle('hidden');
+    });
+
+    // Close mobile menu when clicking a link
+    document.querySelectorAll('#mobile-menu a').forEach(link => {
+      link.addEventListener('click', () => {
+        document.getElementById('mobile-menu').classList.add('hidden');
+      });
+    });
+
+    // Scroll-based nav shadow
+    window.addEventListener('scroll', function() {
+      const nav = document.getElementById('nav');
+      if (window.scrollY > 50) {
+        nav.classList.add('nav-scrolled');
+      } else {
+        nav.classList.remove('nav-scrolled');
+      }
+    });
+
+    // Fade-in on scroll (simple Intersection Observer)
+    const fadeElements = document.querySelectorAll('.fade-in');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
+    fadeElements.forEach(el => observer.observe(el));
+
+    // Hero elements - show immediately
+    document.querySelectorAll('#home .fade-in').forEach(el => {
+      el.classList.add('visible');
+    });
+  </script>
+</body>
+</html>
